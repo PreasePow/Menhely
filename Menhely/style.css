@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: "Roboto", sans-serif;
+}
+.fokep {
+    width: 450px;
+    display: block; 
+    margin: 0 auto;
+}
+        .kepek{
+            width: 300px;
+            border-radius: 200px;
+            border: 3px solid darkblue;
+        }
+        body{
+            background-color: lightblue;
+        }
+        .kutyák{
+            width: 800px;
+            margin: 0 auto ;
+        }
+        .orokbefogadas{
+            width: 800px;
+            margin: 0 auto ;
+         text-align: center;
+        }
+         .orokbefogadas, tr, td, th {
+            width: 800px;
+            margin: 0 auto ;
+            border: 1px solid black;
+        }
+        h2{
+            margin-top: 200px;
+        }
+        table{
+            width: 800px;
+            margin: 0 auto ;
+        }
+        h1, h2 {
+            text-align: center;
+        }
