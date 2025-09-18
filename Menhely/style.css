@@ -11,6 +11,12 @@
             width: 300px;
             border-radius: 200px;
             border: 3px solid darkblue;
+            box-shadow: 10px 10px rgb(87, 87, 154);
+            margin: 10px;
+        }
+        .kepek:hover
+    {
+        box-shadow: 10px 10px rgb(12, 12, 26);
         }
         body{
             background-color: lightblue;
@@ -24,9 +30,7 @@
             margin: 0 auto ;
          text-align: center;
         }
-         .orokbefogadas, tr, td, th {
-            width: 800px;
-            margin: 0 auto ;
+         .orokbefogadas th, .orokbefogadas td {
             border: 1px solid black;
         }
         h2{
@@ -39,3 +43,34 @@
         h1, h2 {
             text-align: center;
         }
+nav{
+    background-color: rgb(40, 44, 47);
+    text-align: center;
+}
+        nav ul{
+           
+            list-style: none;
+        }
+nav li{
+          display: inline-block;
+        }
+        nav a{
+background-color: rgb(21, 37, 49);
+text-decoration: none;
+color: aquamarine;
+margin: 10px;
+padding: 10px;
+        }
+
+        nav a:hover{
+            color: rgb(114, 7, 82);
+            background-color: rgb(59, 20, 175);
+        }
+
+footer{
+    background-color: rgb(67, 107, 107);
+    color: aliceblue;
+text-align: center;
+padding: 10px;
+margin-bottom: 50px;
+}
